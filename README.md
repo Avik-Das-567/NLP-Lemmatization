@@ -5,10 +5,8 @@
 ### What is Lemmatization?
 - **Lemmatization** converts a word to its **root dictionary form (lemma)**.
 - Unlike stemming, it returns **real words** using proper **grammar rules**.
-- Example: “running”, “ran” → “**run**” (valid word).
-- **Real-Life Example -**
-
-  Sentence:
+- **Example:** “running”, “ran” → “**run**” (valid word).
+- **Example Sentence:**
 
   > "He was running and had run fast."
 
