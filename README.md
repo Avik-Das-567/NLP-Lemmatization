@@ -25,16 +25,18 @@
 - **`nltk`**
 - **`streamlit`**
 ---
-### Output of the Code
-
+### How the App Works -
+- **Input :**
+```
+text = "The children were running faster than their friends."
+```
+- **Output :**
 ```
 Lemmatized: ['The', 'child', 'were', 'running', 'faster', 'than', 'their', 'friend', '.']
 ```
-
 - "children" → "child", "friends" → "friend"
- 
  ---
- ### Some Important Points
+ ### Additional Insights :
 - Lemmatization uses **WordNet dictionary**.
 - It handles **plural to singular** and **tense conversion**.
 - Lemmatization is **smarter** but **slower** than stemming.
