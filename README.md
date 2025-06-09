@@ -34,7 +34,8 @@ text = "The children were running faster than their friends."
 ```
 Lemmatized: ['The', 'child', 'were', 'running', 'faster', 'than', 'their', 'friend', '.']
 ```
-- "children" → "child", "friends" → "friend"
+- The words "**children**" and "**friends**" are lemmatized to their noun forms "**child**" and "**friend**".
+- Other words like "**running**" and "**were**" remain unchanged because the lemmatizer assumes default noun form without POS tagging.
  ---
  ### Additional Insights :
 - Lemmatization uses **WordNet dictionary**.
