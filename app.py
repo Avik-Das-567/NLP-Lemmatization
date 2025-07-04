@@ -15,4 +15,5 @@ text = "The children were running faster than their friends."
 words = word_tokenize(text)
 lemmatized = [lemmatizer.lemmatize(w) for w in words]
 
-st.write("Lemmatized:", lemmatized)
+st.write("Input Text :-", text)
+st.write("After Lemmatization, Output is :-", lemmatized)
